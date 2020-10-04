@@ -1,4 +1,5 @@
 from flask import Flask, request
+
 app = Flask(__name__)
 supported_languages = ["pl", "cz", "es", "en-gb", "en"]
 
